@@ -1,0 +1,643 @@
+@font-face {
+  font-family: "Kano";
+  src: url("./fonts/Kano-regular.eot");
+  src: url("./fonts/Kano-regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Kano-regular.woff2") format("woff2"),
+    url("./fonts/Kano-regular.woff") format("woff"),
+    url("./fonts/Kano-regular.ttf") format("truetype"),
+    url("./fonts/Kano-regular.svg#Kano-regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 1.1vw;
+  margin-top: 2em;
+}
+
+html,
+body {
+  height: 90%;
+  width: 100%;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.root,
+.main {
+  height: 100%;
+}
+
+.main {
+  margin: auto;
+}
+
+.top-main {
+  position: relative;
+}
+
+.top-main,
+.bottom-main {
+  float: left;
+  margin: auto;
+  width: 100%;
+}
+
+.bottom-main {
+  height: 100%;
+  margin-top: 2em;
+}
+
+/* CONTACT*/
+
+.header {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.logo-text {
+  position: absolute;
+  top: 12%;
+  left: 7.15vw;
+  margin: 0;
+  font-size: 0.7vw;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+  height: auto;
+}
+
+.logo-name {
+  position: absolute;
+  top: 23%;
+  left: 7.1vw;
+  margin: 0;
+  font-size: 1.65vw;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contact-container {
+  float: right;
+  width: 22.5vw;
+}
+
+.contact-list {
+  font-size: 0.95vw;
+}
+
+.contact-image {
+  padding-right: 1vw;
+  width: 2vw;
+}
+
+.contact-list > .list-group-item {
+  padding: 0.65em 1em !important;
+  border-radius: 0 !important;
+}
+
+/* NAV BAR TABS*/
+
+.active {
+  background: #fcfcfc !important;
+  border-bottom: 1px solid #fcfcfc !important;
+}
+
+.nav-item,
+.nav-item a {
+  font-size: 1.1vw !important;
+  font-weight: 600 !important;
+  color: #00294b;
+  border-radius: 0 !important;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tab-left {
+  float: left;
+  position: relative;
+  width: 10%;
+  height: 90%;
+  margin-top: 2em;
+  border-right: 1px dashed lightslategrey;
+}
+
+.tab-right {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+}
+
+.fade,
+.tab-pane,
+.tab-content {
+  height: 100% !important;
+}
+
+.tab-title {
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+.tab-title-letter {
+  line-height: 1 !important;
+  margin-bottom: 0.5em !important;
+}
+
+.tab-content {
+  height: 100% !important;
+  background: #fcfcfc;
+  border-left: #dee2e6 1px solid;
+  border-right: #dee2e6 1px solid;
+  border-bottom: #dee2e6 1px solid;
+}
+
+/* BIO */
+
+.tab-left-biography {
+  float: left;
+  width: 10%;
+  height: 91%;
+  margin-top: 1.75%;
+  border-right: 0.15em dashed #dee2e6;
+}
+
+.tab-right-biography {
+  float: left;
+  width: 90%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.bio {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 1% 3.5% 0 3.5%;
+}
+
+#bio-top {
+  float: left;
+  width: 100%;
+}
+
+.bio-bottom {
+  float: left;
+  width: 97.5%;
+  border-top: 0.15em dashed #dee2e6;
+}
+
+.philo-container,
+.edu-container {
+  float: left;
+  margin-top: 0.5em;
+}
+
+.philo-container {
+  width: 95%;
+}
+
+.edu-container {
+  position: relative;
+  width: 97.5%;
+  margin: 1em 0 0.25em 0;
+  padding-top: 1em;
+  border-top: 0.15em dashed #dee2e6;
+}
+
+.bio-photo-container {
+  float: right;
+  width: 6%;
+  margin-right: 0.25em;
+  border: 1px solid #fcfcfc;
+}
+
+.bio-photo {
+  float: right;
+  width: 100%;
+  height: auto;
+  filter: grayscale(40%);
+  border-radius: 0.5em;
+}
+
+.philo-title {
+  width: 100%;
+  margin: 0;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.philo-title,
+.edu-title {
+  margin: 0;
+  font-size: 1vw;
+  font-weight: bold;
+  font-family: "Kano", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.philo-title {
+  padding-top: 0.5em;
+}
+
+.edu-title {
+  float: left;
+  width: 95%;
+}
+
+.philo-text {
+  float: left;
+  width: 100%;
+  padding-top: 0.5em;
+  margin: 0 0 0 1em;
+  text-align: justify;
+}
+
+.edu-text {
+  float: left;
+  width: 100%;
+  margin: 0;
+  margin-left: 3em;
+  padding-left: 0.5em;
+  text-align: justify;
+  margin-bottom: 1em !important;
+}
+
+.bio-slide-container {
+  float: left;
+  width: 30%;
+  margin: -2em 0 0 1em;
+}
+
+.slide-photo-container {
+  float: left;
+  width: auto;
+}
+
+.slide-photo {
+  float: left;
+  width: 10.75vw;
+  margin-top: 1px;
+}
+
+.edu-logo-container {
+  width: 35%;
+  padding-top: 1em;
+}
+
+.edu-degree-container {
+  float: left;
+  width: 25%;
+  margin: -2em 0 0 1em;
+}
+
+.edu-logo {
+  float: left;
+  width: 100%;
+}
+
+.degree-table-container {
+  float: left;
+  width: 100%;
+}
+
+.degree-table {
+  float: left;
+  margin: 0;
+  font-size: 1.05vw;
+  background: #fff;
+  border: 1px solid #dee2e6 !important;
+}
+
+.degree-table tr,
+td {
+  margin: 0 !important;
+  border: none !important;
+  text-align: center;
+}
+
+.degree-table td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.degree-title {
+  font-weight: 1vw;
+  padding-left: 1.5em !important;
+}
+
+.degree-list-container {
+  float: left;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.major {
+  margin-right: 1.5%;
+}
+
+.minor {
+  margin-left: 1.5%;
+}
+
+.degree-list {
+  float: left;
+  width: 48.25%;
+  font-size: 1.15vw;
+}
+
+.degree-list > .list-group-item {
+  padding: 0.25em 0.5em !important;
+}
+
+.degree-list-title,
+.degree-list-text {
+  margin: 0 !important;
+  text-align: center;
+  border-radius: 0 !important;
+}
+
+.degree-list-title {
+  border-bottom: none !important;
+  font-weight: bold !important;
+  font-size: 1vw;
+}
+.degree-list-text {
+  border-top: none !important;
+}
+
+.background-container {
+  float: left;
+}
+
+.background-title {
+  width: 97.5%;
+  margin: 0;
+  padding-top: 1em;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.background-text {
+  float: left;
+  width: 97.5%;
+  margin: 0.75em 0 0 1em !important;
+  text-align: justify;
+}
+
+.background-table-container {
+  float: left;
+  width: 97.5%;
+  margin-left: 1em !important;
+}
+
+.background-table {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  margin-top: 1em;
+  font-size: 1.1vw;
+}
+
+.background-table td {
+  width: auto;
+  border: none !important;
+  padding: 0.25em 0 0.25em 1em;
+  text-align: left !important;
+}
+
+.background-table td:nth-child(1) {
+  width: 30%;
+  font-weight: 600;
+  font-size: 0.85vw;
+  padding: 0.75em 0 0.5em 0.75em !important;
+  text-transform: uppercase;
+}
+
+.background-table td:nth-child(2) {
+  width: 25%;
+}
+
+.background-table td:nth-child(3) {
+  width: 20%;
+}
+
+.background-table td:nth-child(4) {
+  width: 25%;
+}
+
+/* SKILLS */
+
+.tab-left-skills {
+  float: left;
+  width: 10%;
+  height: 92.5%;
+  margin-top: 2.5%;
+  border-right: 0.15em dashed #dee2e6;
+}
+
+.tab-right-skills {
+  float: left;
+  width: 90%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.skills {
+  float: left;
+  height: 100%;
+  width: 100%;
+  padding: 2em 0 0 2em;
+}
+
+.skills-top {
+  float: left;
+  width: 100%;
+}
+
+.skills-left,
+.skills-mid,
+.skills-right {
+  float: left;
+  width: 33%;
+}
+
+.skills-legend {
+  float: left;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.skills-level {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.separator {
+  float: left;
+  margin: 0 10px;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blueviolet;
+}
+
+.skills-container {
+  float: left;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.skills-title,
+.platforms-title {
+  float: left;
+  font-size: 1.25vw;
+  font-weight: 400;
+  margin: 0;
+}
+
+.skills-title {
+  width: 100%;
+}
+
+.platforms-list-container {
+  float: left;
+  width: 85%;
+  margin-bottom: 1em;
+}
+
+.platforms-list {
+  float: left;
+  margin-top: -1em;
+  padding: 0 1.5em;
+}
+
+.platforms-list-item {
+  padding: 0 1.25em;
+  font-size: 1.1vw;
+  border: none !important;
+  background: none !important;
+}
+
+.platforms-image {
+  height: 1.5em;
+  width: auto;
+  margin: auto;
+}
+
+.platforms-text {
+  margin: 0;
+  margin-top: 0.25em;
+}
+
+.skills-list-container {
+  float: left;
+  width: 100%;
+}
+
+.skills-list-container-one,
+.skills-list-container-two {
+  float: left;
+  background: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.skills-list-container-one,
+.skills-list-container-two {
+  width: 47.5%;
+}
+
+.skills-list-container-one {
+  float: left;
+  margin-top: 1em;
+  border-right: none !important;
+}
+
+.skills-list-container-two {
+  float: left;
+  margin-top: 1em;
+  border-left: none !important;
+}
+
+.skills-list {
+  float: left;
+  width: 100%;
+  padding: 1em 0 1em 0.9em;
+  font-size: 1vw;
+}
+
+.skills-list-item {
+  width: 100% !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.skills-image,
+.skills-text {
+  float: left;
+  background: none !important;
+  border: none !important;
+}
+
+.skills-text {
+  margin: 0 0 0 0.55em !important;
+}
+
+.skills-image-img {
+  float: left;
+  height: 1.5em;
+  width: auto;
+  margin: auto;
+}
+
+/* RESUME */
+
+.tab-left-resume {
+  float: left;
+  width: 10%;
+  height: 92.5%;
+  margin-top: 2.5%;
+  border-right: 0.15em dashed #dee2e6;
+}
+
+.tab-right-resume {
+  float: left;
+  width: 90%;
+  height: 100%;
+  padding-top: 2.5%;
+}
+
+.resume-container {
+  float: left;
+  height: 96.5%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+canvas {
+  margin: auto;
+}
+
+.annotationLayer {
+  display: none !important;
+}
